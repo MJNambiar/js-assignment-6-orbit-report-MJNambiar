@@ -1,6 +1,22 @@
 <h3>Satellite Count:</h3>
 <div class="counts">
-	<div>Total: <span class="counts-total">NaN</span></div>
+	<div>Total: <span class="counts-total">{{totalCount()}}</span></div>
 </div>
 
 <!-- TODO 4: add logic to count number of satellites displayed -->
+
+
+<!-- countByType(type: string): number {
+	let count = 0;
+	if (this.satellites) {
+	  for (let i = 0; i < this.satellites.length; i++) {
+		 if (this.satellites[i].type === type) {
+			count++;
+		 }
+	  }
+	}
+	return count;
+ } -->
+
+
+<!-- if search box empty do totalCount, else use countbyType?? can i do this when search box is in app html? -->
